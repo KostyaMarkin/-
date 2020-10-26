@@ -1,0 +1,43 @@
+﻿<Window x:Class="Четверть_по_координатам.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Четверть_по_координатам"
+        mc:Ignorable="d"
+        Title="Вычисление корней квадратного урованения" Height="281.096" Width="411.644">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                <GradientStop Color="#FFE2FFE2" Offset="0"/>
+                <GradientStop Color="#FFA8FDA8" Offset="0.3"/>
+                <GradientStop Color="#FFE2FFE2" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="67"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Label HorizontalAlignment="Center" FontSize="20" Content="Нужно ввести коэффициенты a,b,c" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Margin="38,0,38,99" Grid.RowSpan="2" Width="328"/>
+        <StackPanel Grid.Column="0" Grid.Row="1" Margin="0,1,0,7" Grid.RowSpan="2">
+            <Label  FontSize="16" Content="Введите коэффициент a=" HorizontalAlignment="Right"/>
+            <Label  FontSize="16" Content="Введите коэффициент b=" HorizontalAlignment="Right"/>
+            <Label  FontSize="16" Content="Введите коэффициент c=" HorizontalAlignment="Right"/>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Grid.Row="1" Margin="0,1,0,7" Grid.RowSpan="2">
+            <TextBox x:Name="txtKoefA" HorizontalAlignment="Left" TextChanged="txtKoefA_TextChanged"/>
+            <TextBox x:Name="txtKoefB" HorizontalAlignment="Left" TextChanged="txtKoefB_TextChanged"/>
+            <TextBox x:Name="txtKoefC" HorizontalAlignment="Left" TextChanged="txtKoefC_TextChanged"/>
+        </StackPanel>
+        <StackPanel Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="2">
+            <Label x:Name="lbnItog" HorizontalAlignment="Center" FontSize="16"/>
+            <Button IsEnabled="false" x:Name="btnCalculate" Margin="10" Content="Вычислить" HorizontalAlignment="Center" Click="btnCalculate_Click"/>
+        </StackPanel>
+        <Button x:Name="btnExit" Margin="10" Content="Выход" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="2" VerticalAlignment="Bottom" HorizontalAlignment="Right" Click="btnExit_Click"/>
+    </Grid>
+</Window>

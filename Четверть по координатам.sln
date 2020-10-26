@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Четверть по координатам", "Четверть по координатам\Четверть по координатам.csproj", "{ADA9C5D9-7533-4F6D-9BB6-3CBB1AF8F632}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADA9C5D9-7533-4F6D-9BB6-3CBB1AF8F632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA9C5D9-7533-4F6D-9BB6-3CBB1AF8F632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA9C5D9-7533-4F6D-9BB6-3CBB1AF8F632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA9C5D9-7533-4F6D-9BB6-3CBB1AF8F632}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF18286A-461E-4B3B-9BD5-0FD0698E553C}
+	EndGlobalSection
+EndGlobal
