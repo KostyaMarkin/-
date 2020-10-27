@@ -36,8 +36,8 @@
         </StackPanel>
         <StackPanel Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="2">
             <Label x:Name="lbnItog" HorizontalAlignment="Center" FontSize="16"/>
-            <Button IsEnabled="false" x:Name="btnCalculate" Margin="10" Content="Вычислить" HorizontalAlignment="Center" Click="btnCalculate_Click"/>
+            <Button Background="{StaticResource btnGradient}" IsEnabled="false" x:Name="btnCalculate" Margin="10" Content="Вычислить" HorizontalAlignment="Center" Click="btnCalculate_Click"/>
         </StackPanel>
-        <Button x:Name="btnExit" Margin="10" Content="Выход" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="2" VerticalAlignment="Bottom" HorizontalAlignment="Right" Click="btnExit_Click"/>
+        <Button Background="{StaticResource btnGradient}" x:Name="btnExit" Margin="10" Content="Выход" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="2" VerticalAlignment="Bottom" HorizontalAlignment="Right" Click="btnExit_Click"/>
     </Grid>
 </Window>
